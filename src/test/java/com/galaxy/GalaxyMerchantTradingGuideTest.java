@@ -29,9 +29,9 @@ class GalaxyMerchantTradingGuideTest {
         interpreter.addGalaxyMapping("prok", "V");
 
         TransactionManager transactionManager = new TransactionManager();
-        transactionManager.addTransaction(new String[]{"glob", "glob"}, "Silver", 68, interpreter);
+        transactionManager.addTransaction(new String[]{"glob", "glob"}, "Silver", 34, interpreter);
 
-        assertEquals(68.0, transactionManager.calculateTotalCredits(new String[]{"glob", "glob"}, "Silver", interpreter));
+        assertEquals(34.0, transactionManager.calculateTotalCredits(new String[]{"glob", "glob"}, "Silver", interpreter));
     }
 
     @Test

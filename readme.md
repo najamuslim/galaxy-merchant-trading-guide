@@ -19,9 +19,62 @@ To run this project, you'll need the following:
 
 ## Installation and Setup
 
-1. Clone the repository:
+### 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/yourusername/galaxy-merchant-trading-guide.git
-   cd galaxy-merchant-trading-guide
-   ```
+```bash
+git clone https://github.com/yourusername/galaxy-merchant-trading-guide.git
+cd galaxy-merchant-trading-guide
+```
+
+### 2. Build the project using Maven
+
+```bash
+mvn clean install
+```
+
+### 3. Run the application
+
+```bash
+mvn exec:java -Dexec.mainClass="com.galaxy.Main"
+```
+
+## Running Tests
+
+```bash
+mvn test
+```
+
+## Usage
+
+- **Define an alien numeral**:
+
+```bash
+glob is I
+```
+
+- **Define an alien numeral**:
+
+```bash
+glob glob Silver is 34 Credits
+```
+
+- **Define an alien numeral**:
+
+```bash
+how much is pish tegj glob glob ?
+```
+
+- **Define an alien numeral**:
+
+```bash
+how many Credits is glob prok Silver ?
+```
+
+## Example
+
+```
+Input: glob is I
+Input: glob glob Silver is 34 Credits
+Input: how many Credits is glob glob Silver?
+Output: glob glob Silver is 68 Credits
+```
