@@ -1,0 +1,5 @@
+com/galaxy/QueryProcessor.class
+com/galaxy/App.class
+com/galaxy/TransactionManager.class
+com/galaxy/GalaxyInterpreter.class
+com/galaxy/RomanNumeralConverter.class
